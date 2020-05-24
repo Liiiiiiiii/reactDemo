@@ -1,0 +1,12 @@
+.userName,.Dropdown{
+    transition: color .3s cubic-bezier(.645,.045,.355,1),border-color .3s cubic-bezier(.645,.045,.355,1),background .3s cubic-bezier(.645,.045,.355,1),padding .15s cubic-bezier(.645,.045,.355,1);;
+}
+.Dropdown{
+    border-bottom: 2px solid #fff;
+}
+.Dropdown:hover{
+    border-bottom-color: #1890ff;
+}
+.Dropdown:hover .userName{   
+    color: #1890ff !important;
+}

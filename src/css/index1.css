@@ -1,0 +1,25 @@
+#searchHeader{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 14px;
+}
+.searchInput{
+    width:240px !important;
+    margin-left: 20px !important;
+    margin-right:40px !important;
+}
+.SpinBox{
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
