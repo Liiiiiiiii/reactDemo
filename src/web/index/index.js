@@ -22,6 +22,7 @@ export default class index extends Component {
   componentDidMount=()=>{
     const history = this.props.history;
     //在渲染完成后需要手动执行一次此方法设置当前菜单，因为此时不会触发history的listen函数
+    //注释注释
     this.setActiveMenu(history.location);
     this.unListen = history.listen(this.setActiveMenu);
   }
